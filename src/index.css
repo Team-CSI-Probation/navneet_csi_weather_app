@@ -12,11 +12,21 @@ body{
   background-position: bottom;
   
 }
-.container.warm{
+.container.sunny{
   background-image: url('./images/warm_image.jfif');
 }
-.container.cold{
-  background-image: url('./images/cold_image.jfif');
+.container.clear{
+  background-image: url('./images/clear.jfif');
+}
+.container.haze{
+  background-image: url('./images/haze.jfif');
+}
+.container.mist{
+  background-image: url('./images/mist.jfif');
+  
+}
+.container.clouds{
+  background-image: url('./images/clouds.jfif');
 }
 main{
   min-height: 100vh;
@@ -40,7 +50,33 @@ main{
   background-color: rgba(255,255,255,0.5);
   font-weight:600;
   box-shadow: 0px 5px rgba(0,0,0,0.2);
-  
 
-
+}
+.location_box{
+  color:white;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+.weather_box{
+  text-align: center;
+}
+.weather_box .temp{
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255,255,255,0.5);
+ border-radius: 20px;
+ padding: 15px 25px;
+ color:black;
+ font-size: 70px;
+ font-weight: 500;
+ text-align: center;
+ box-shadow: black;
+}
+.weather_box .weather{
+  color: white;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
 }
