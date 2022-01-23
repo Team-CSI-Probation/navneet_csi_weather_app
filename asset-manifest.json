@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/navneet_csi_weather_app/static/css/main.44820562.css",
+    "main.js": "/navneet_csi_weather_app/static/js/main.8775241c.js",
+    "static/js/787.d9312eb8.chunk.js": "/navneet_csi_weather_app/static/js/787.d9312eb8.chunk.js",
+    "static/media/default.jpg": "/navneet_csi_weather_app/static/media/default.70361f03773d08fdd324.jpg",
+    "static/media/clouds.jfif": "/navneet_csi_weather_app/static/media/clouds.a57f482b899dc9321c6e.jfif",
+    "static/media/warm_image.jfif": "/navneet_csi_weather_app/static/media/warm_image.545cfccfd7742b0ff11d.jfif",
+    "static/media/clear.jfif": "/navneet_csi_weather_app/static/media/clear.efec2bb595214981ee88.jfif",
+    "static/media/haze.jfif": "/navneet_csi_weather_app/static/media/haze.fd537be8559f7f204051.jfif",
+    "static/media/mist.jfif": "/navneet_csi_weather_app/static/media/mist.4049271b5393ec75e783.jfif",
+    "index.html": "/navneet_csi_weather_app/index.html",
+    "main.44820562.css.map": "/navneet_csi_weather_app/static/css/main.44820562.css.map",
+    "main.8775241c.js.map": "/navneet_csi_weather_app/static/js/main.8775241c.js.map",
+    "787.d9312eb8.chunk.js.map": "/navneet_csi_weather_app/static/js/787.d9312eb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44820562.css",
+    "static/js/main.8775241c.js"
+  ]
+}
