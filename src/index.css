@@ -6,28 +6,49 @@
 body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.container{
-  background-image: url('./images/default.jpg');
+.app {
+  background-image: url("./images/default.jpg");
   background-size: cover;
   background-position: bottom;
+  overflow: hidden; 
+}
+
+.app.sunny {
+  background-image: url("./images/warm_image.jfif");
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
+}
+
+.app.cloudy {
+  background-image: url("./images/clouds.jfif");
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
   
 }
-.container.sunny{
-  background-image: url('./images/warm_image.jfif');
+
+.app.haze {
+  background-image: url("./images/haze.jfif");
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
 }
-.container.clear{
-  background-image: url('./images/clear.jfif');
+
+.app.clear {
+  background-image: url("./images/clear.jfif");
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
 }
-.container.haze{
-  background-image: url('./images/haze.jfif');
+.app.mist {
+  background-image: url("./images/mist.jfif");
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
 }
-.container.mist{
-  background-image: url('./images/mist.jfif');
-  
-}
-.container.clouds{
-  background-image: url('./images/clouds.jfif');
-}
+
+
 main{
   min-height: 100vh;
   background-image: linear-gradient(to bottom,rgba(0,0,0,0.2),rgba(0,0,0,0.75));
